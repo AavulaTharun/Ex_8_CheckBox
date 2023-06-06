@@ -34,6 +34,7 @@ RegisterNumber:212221240003
 ```
 
 ## MainActivity.java:
+~~~
 package com.example.ex_8;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -76,8 +77,9 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(MainActivity.this, selected, Toast.LENGTH_SHORT).show();
     }
 }
-
+~~~
 ## activity_main.xml:
+~~~
 package com.example.ex_8;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -121,10 +123,10 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-
-
+~~~
 
 ## AndroidMainfest.xml:
+~~~
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
@@ -150,7 +152,7 @@ public class MainActivity extends AppCompatActivity {
     </application>
 
 </manifest>
-
+~~~
 
 ## Output:
 
